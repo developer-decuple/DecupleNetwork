@@ -1,0 +1,9 @@
+@font-face {
+      font-family: "Inter";
+      src: url("../fonts/Inter-VariableFont_slnt\,wght.ttf") format("woff2 supports variations");
+      font-weight: 100 900;
+}
+
+.bithu_v1_baner_sect{
+      background: none;
+}
