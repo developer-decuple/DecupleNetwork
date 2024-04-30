@@ -7,3 +7,33 @@
 .bithu_v1_baner_sect{
       background: none;
 }
+   .add-banner-left {
+         color: white;
+
+   }
+
+   .add-banner-left h1 {
+         font-family: 'Inter' !important;
+         font-weight: 900;
+         font-size: 3.5rem;
+         margin-bottom: 0.5rem;
+   }
+
+   .add-banner-left h2 {
+         font-family: 'Inter' !important;
+         font-weight: 300;
+         font-size: 2.6rem;
+
+   }
+
+   .add-banner-left h3 {
+         font-family: 'Inter' !important;
+         font-weight: 600;
+         font-size: 1.8rem;
+         margin-bottom: 1.5rem;
+
+   }
+
+   .yellow-marked {
+         color: #FFE600;
+   }
