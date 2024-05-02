@@ -15,59 +15,68 @@
 
 
 .bithu_roadmap_section .bithu_roadmap_item .bithu_roadmap_content .bithu_roadmap_counter .roadmap_parcentage {
-      
+
       min-height: min-content !important;
       padding: 0px !important;
 }
 
 
 
+.logo img{
+      width: 50%;
+}
 
-
-
+.footer_logo{
+      max-width: 100px;
+}
 
 /* Here are styles are completely new */
 
 
- .wide {
-       width: 70% !important;
-       max-width: 70% !important;
- }
+.wide {
+      width: 70% !important;
+      max-width: 70% !important;
+}
 
 
- .add-banner-new {
-       font-family: 'Bakbak One';
-       color: white;
+.add-banner-new {
+      font-family: 'Bakbak One';
+      color: white;
 
- }
+}
 
- .add-banner-new h1 {
-       font-weight: 900;
-       font-size: 3.2rem;
-       margin-bottom: 1.8rem;
-       line-height: 3.5rem;
-       letter-spacing: 1px;
+.add-banner-new h1 {
+      font-weight: 900;
+      font-size: 3.2rem;
+      margin-bottom: 1.8rem;
+      line-height: 3.5rem;
+      letter-spacing: 1px;
 
- }
+}
 
- .add-banner-new h2 {
-       font-weight: 300;
-       font-size: 2.2rem;
-       line-height: 2.4rem;
+.add-banner-new h2 {
+      font-weight: 300;
+      font-size: 2.2rem;
+      line-height: 2.4rem;
 
-       margin-bottom: 1.8rem;
-       color: #dfdfdf;
+      margin-bottom: 1.8rem;
+      color: #dfdfdf;
 
- }
+}
 
- .add-banner-new h3 {
-       font-weight: 100;
-       font-size: 1.8rem;
-       margin-bottom: 1.8rem;
-       color: #dfdfdf;
+.add-banner-new h3 {
+      font-weight: 100;
+      font-size: 1.8rem;
+      margin-bottom: 1.8rem;
+      color: #dfdfdf;
 
- }
+}
 
+.add-banner-new h4 {
+      margin-bottom: 1.8rem;
+      color: #dfdfdf;
+      font-family: 'Inter';
+}
 
 .add-banner-left {
       color: white;
