@@ -131,3 +131,40 @@
 .about-text-bold {
       font-weight: 900;
 }
+ #caret-d {
+       display: none;
+ }
+
+ .p-sub-menu-box ul {
+       display: block;
+
+ }
+
+ .p-sub-menu-box ul li {
+       padding: 6px 10px;
+
+ }
+
+ .p-sub-menu-box ul li:hover {
+       background-color: #ffffff22;
+
+ }
+
+ .p-sub-menu-box ul :hover {
+       color: #ffffff !important;
+ }
+
+ .p-sub-menu-frame {
+       position: absolute;
+       display: none;
+       background-color: #363636ad;
+ }
+
+ #product-btn {
+       cursor: pointer;
+ }
+
+ #product-btn :hover {
+       color: #ffffff !important;
+
+ }
