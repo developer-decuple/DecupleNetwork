@@ -5,7 +5,8 @@
 }
 
 .bithu_v1_baner_sect {
-      background: none;
+      /* background: none; */
+      padding-top: 100px !important;
 }
 
 
@@ -21,7 +22,11 @@
 }
 
 .v1_roadmap_sect {
+      padding-top: 100px !important;
       padding-bottom: 10px !important;
+}
+.bithu_faq_sect {
+      padding-top: 100px !important;
 }
 
 .bithu_menu_list {
@@ -32,6 +37,19 @@
 
 .bithu_menu_list ul li :hover {
       color: #e6e6e6 !important;
+}
+
+.bithu_menu_list ul li a {
+      text-transform: none !important;
+      font-size: 18px !important;
+}
+
+.bithu_menu_right_sect {
+      width: 90% !important;
+}
+
+.bithu_menu_right_buttons {
+      min-width: 100px;
 }
 
 .logo img {
@@ -49,12 +67,29 @@
       max-width: 100px;
 }
 
+
+/* Override */
+
+.bithu_title_section h3 {
+line-height: 48px;
+}
+
+
+
+
+
+
 /* Here are styles are completely new */
 
 
 .wide {
       width: 70% !important;
       max-width: 70% !important;
+}
+
+.slim {
+      width: 30% !important;
+      max-width: 30% !important;
 }
 
 
@@ -85,7 +120,7 @@
 
 .add-banner-new h3 {
       font-weight: 100;
-      font-size: 1.8rem;
+      font-size: 1.4rem;
       margin-bottom: 1.8rem;
       color: #dfdfdf;
 
@@ -131,40 +166,34 @@
 .about-text-bold {
       font-weight: 900;
 }
- #caret-d {
-       display: none;
- }
 
- .p-sub-menu-box ul {
-       display: block;
 
- }
 
- .p-sub-menu-box ul li {
-       padding: 6px 10px;
+.p-sub-menu-box ul {
+      display: block;
 
- }
+}
 
- .p-sub-menu-box ul li:hover {
-       background-color: #ffffff22;
+.p-sub-menu-box ul li {
+      padding: 6px 10px;
 
- }
+}
 
- .p-sub-menu-box ul :hover {
-       color: #ffffff !important;
- }
+.p-sub-menu-box ul li:hover {
+      background-color: #ffffff22;
 
- .p-sub-menu-frame {
-       position: absolute;
-       display: none;
-       background-color: #363636ad;
- }
+}
 
- #product-btn {
-       cursor: pointer;
- }
+.p-sub-menu-box ul :hover {
+      color: #ffffff !important;
+}
 
- #product-btn :hover {
-       color: #ffffff !important;
 
- }
+#product-btn {
+      cursor: pointer;
+}
+
+#product-btn :hover {
+      color: #ffffff !important;
+
+}
