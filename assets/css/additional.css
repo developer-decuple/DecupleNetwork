@@ -20,13 +20,32 @@
       padding: 0px !important;
 }
 
-
-
-.logo img{
-      width: 50%;
+.v1_roadmap_sect {
+      padding-bottom: 10px !important;
 }
 
-.footer_logo{
+.bithu_menu_list {
+      margin-right: 1px !important;
+      margin-left: 10px !important;
+      max-width: unset !important;
+}
+
+.bithu_menu_list ul li :hover {
+      color: #e6e6e6 !important;
+}
+
+.logo img {
+      width: 20%;
+}
+
+@media (min-width: 992px) {
+      .logo img {
+            width: 50%;
+      }
+}
+
+
+.footer_logo {
       max-width: 100px;
 }
 
@@ -107,4 +126,8 @@
 
 .yellow-marked {
       color: #FFE600;
+}
+
+.about-text-bold {
+      font-weight: 900;
 }
