@@ -75,7 +75,7 @@
                             <script>
                                 function subMenuToggle() {
                                     $('#submenu').toggle()
-                                    
+
                                 }
 
                             </script>
@@ -178,7 +178,7 @@
     <div class="bithu_v1_baner_sect" id="home">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 row">
+                <div class="col-lg-12 row" id="banner-box">
                     <div class="add-banner-new wide">
                         <style>
 
@@ -533,7 +533,8 @@
                         <div class="roadmap_img  display-block">
                             <img src="assets/images/projects/brandstaking-logo.png" alt="">
                             <br><br>
-                            <a href="https://brandstaking.com" target="_blank" class="project-link" style="justify-content: center;"> Brandstaking.com &nbsp;
+                            <a href="https://brandstaking.com" target="_blank" class="project-link"
+                                style="justify-content: center;"> Brandstaking.com &nbsp;
                                 <i class="fa-solid fa-up-right-from-square" style="margin-left:6px"></i>
                             </a>
                         </div>
@@ -640,29 +641,33 @@
     <br>
     <!--Counter Section Start-->
     <div class="bithu_total_counter_sect">
-        <div class="container">
+        <div class="container ">
             <ul>
-                <li class="text-center">
+                <li class="text-center align-top">
                     <h3><span class="counter">26</span></h3>
                     <h4>Community Members</h4>
+                    <p class="counter-sub-text">&nbsp;</p>
+
                 </li>
 
-                <li class="text-center">
+                <li class="text-center  align-top">
                     <h3><span class="counter">0</span></h3>
                     <h4>Total Owners</h4>
-                    <p>DCP has not been released yet</p>
+                    <p class="counter-sub-text">DCP has not been released yet</p>
                 </li>
 
-                <li class="text-center">
+                <li class="text-center align-top">
                     <h3><span class="counter">0</span></h3>
                     <h4>Token Price (USD)</h4>
-                    <p>Price has not been discovered yet</p>
+                    <p class="counter-sub-text">Price has not been discovered yet</p>
 
                 </li>
 
-                <li class="text-center">
+                <li class="text-center align-top">
                     <h3><span class="counter">0</span></h3>
                     <h4>Volume Traded (USD)</h4>
+                    <p class="counter-sub-text">&nbsp;</p>
+
                 </li>
             </ul>
         </div>
@@ -1629,12 +1634,31 @@
                 $('#submenu').hide()
             })
 
+            setSubMenuLeft()
+
+            window.addEventListener('resize', function (event) {
+                setSubMenuLeft()
+            }, true);
+        })
+
+        function setSubMenuLeft() {
             var leftO = $('#product-btn').offset().left
             var topO = $('#submenu').offset().top
 
-            console.log('left: '+ leftO+'   top: '+topO)
-            $('#submenu').css({   left: leftO });
-        })
+            console.log('left: ' + leftO + '   top: ' + topO)
+            $('#submenu').css({ left: leftO });
+        }
+
+        var topBanner = $('#banner-box').offset().top
+        var bannerHeight = $('#banner-box').height()
+        var bannerLeft = $('#banner-box').offset().left
+        var windowH = window.innerHeight;
+        var idealTop = ((Math.floor(window.innerHeight)) - (Math.floor(bannerHeight))) / 4
+        if(windowH < 920){
+            idealTop = ((Math.floor(window.innerHeight)) - (Math.floor(bannerHeight))) / 2
+        }
+        $('#banner-box').css({ marginTop: idealTop });
+        // $('#banner-box').css({ top: idealTop });
     </script>
 </body>
 
