@@ -459,10 +459,12 @@
                                 .new-project-image {
                                     background: none !important;
                                 }
-                                .new-project-image img{
+
+                                .new-project-image img {
                                     max-height: 100% !important;
                                     aspect-ratio: 1;
                                 }
+
                                 .display-block {
                                     display: block !important;
                                 }
@@ -1388,11 +1390,59 @@
                             .footer_social_links ul li {
                                 margin: 20px !important;
                             }
-                            .social-shape{
+
+                            .social-shape {
                                 width: 50%;
                             }
                         </style>
                     </ul>
+                </div>
+                <div class=" text-center row ">
+                    <div class="col-lg-4 ">
+                    </div>
+                    <div class="col-lg-4 ">
+                        <div class="footer_newsletter ">
+                            <h5 class="menu-title">Subscribe Newsletter</h5>
+                            <br>
+                            <div class="footer-button">
+                                <input class="sub-input" type="text" name="text" placeholder="Email address" 
+                                  id="emailSubInput"  required="">
+                                <a href="#"  onclick="emailSubscribe()" class="sub-btn"><img src="assets/images/blog/arrow-icon.png" alt=""></a>
+                            </div>
+                        </div>
+                        <style>
+                            .footer-button {
+                                position: relative;
+                                z-index: 2;
+                            }
+
+                            .sub-input {
+                                width: 100%;
+                                background: #343D4055;
+                                /* background: transparent; */
+                                border: 2px solid #343D40;
+                                color: rgba(255, 255, 255, 0.7);
+                                height: 60px;
+                                line-height: 60px;
+                                padding: 0 20px;
+                            }
+
+                            .sub-btn {
+                                background: #00FFA3;
+                                position: absolute;
+                                display: inline-block;
+                                height: 100%;
+                                width: 70px;
+                                right: 0;
+                            }
+
+                            .sub-btn img {
+                                position: relative;
+                                top: 15px;
+                                /* left: 27px; */
+                            }
+                        </style>
+                    </div>
                 </div>
                 <div class="footer_stras_sect">
                     <div class="footer_stars">
@@ -1428,7 +1478,7 @@
                                 <div class="copiright_text pl-40">
                                     Copyright © 2022-2024 Decuple
                                     <br>
-                                    <a href="mailto:Contact@decuple.io">Contact@decuple.io</a>
+                                    <a href="mailto:info@decuple.io">info@decuple.io</a>
 
                                 </div>
                             </div>
@@ -1453,147 +1503,6 @@
         </div>
     </div>
     <!-- Modal Section Start-->
-
-    <!-- Connect Wallet Modal -->
-    <div class="connect_modal">
-        <div class="modal fade " id="connectModal" tabindex="-1" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal_overlay">
-                        <div class="modal_header">
-                            <h2>Connect Wallet</h2>
-                            <button data-bs-dismiss="modal" aria-label="Close">
-                                <i class="fa-solid fa-xmark"></i>
-                            </button>
-                        </div>
-                        <div class="modal_body text-center">
-                            <p>Please select a wallet to connect for start Minting your NFTs</p>
-                            <div class="connect-section">
-                                <ul class="heading-list">
-                                    <li><a href="#" class="connect-meta"><span><img
-                                                    src="assets/images/icon/MetaMask.svg"
-                                                    alt="Meta-mask-Image"></span>MetaMask</a></li>
-                                    <li><a href="#"><span><img src="assets/images/icon/Formatic.svg"
-                                                    alt="Coinbase-Image"></span>Coinbase</a></li>
-                                    <li><a href="#"><span><img src="assets/images/icon/Trust_Wallet.svg"
-                                                    alt="Trust-Image"></span>Trust Wallet</a></li>
-                                    <li><a href="#"><span><img src="assets/images/icon/WalletConnect.svg"
-                                                    alt="Wallet-Image"></span>WalletConnect</a></li>
-                                </ul>
-                            </div>
-                            <h6>By connecting your wallet, you agree to our <a href="#">Terms of Service</a> and our <a
-                                    href="#">Privacy Policy</a>.</h6>
-                        </div>
-                        <div class="modal_bottom_shape">
-                            <span class="modal_bottom_shape_left"><img src="assets/images/icon/hov_shape_L.svg"
-                                    alt="" /></span>
-                            <span class="modal_bottom_shape_right"><img src="assets/images/icon/hov_shape_L.svg"
-                                    alt="" /></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Connect Wallet Modal -->
-
-
-    <!-- Connect Wallet Modal -->
-    <div class="connect_modal">
-        <div class="modal fade " id="download-metamask" tabindex="-1" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal_overlay">
-                        <div class="modal_header">
-                            <h2>Connect Wallet</h2>
-                            <button data-bs-dismiss="modal" aria-label="Close">
-                                <i class="fa-solid fa-xmark"></i>
-                            </button>
-                        </div>
-                        <div class="modal_body text-center">
-                            <p>Please download & install metamask extension!</p>
-                            <div class="connect-section">
-                                <ul class="heading-list">
-                                    <li><a href="https://metamask.io/download/" target="_blank"><span><img
-                                                    src="assets/images/icon/MetaMask.svg"
-                                                    alt="Meta-mask-Image"></span>MetaMask</a></li>
-                                </ul>
-                            </div>
-                            <h6>By connecting your wallet, you agree to our <a href="#">Terms of Service</a> and our <a
-                                    href="#">Privacy Policy</a>.</h6>
-                        </div>
-                        <div class="modal_bottom_shape">
-                            <span class="modal_bottom_shape_left"><img src="assets/images/icon/hov_shape_L.svg"
-                                    alt="" /></span>
-                            <span class="modal_bottom_shape_right"><img src="assets/images/icon/hov_shape_L.svg"
-                                    alt="" /></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Connect Wallet Modal -->
-
-    <!-- Mint Modal -->
-    <div class="mint_modal">
-        <div class="modal fade " id="mintModal" tabindex="-1" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal_overlay2">
-                        <div class="modal_header">
-                            <h2>Collect YOUR NFT before end</h2>
-                            <button data-bs-dismiss="modal" aria-label="Close">
-                                <span class="clossbtn_bg"><i class="fa-solid fa-xmark"></i></span>
-                            </button>
-                        </div>
-                        <div class="modal_body text-center">
-                            <div class="mint_img">
-                                <img src="assets/images/icon/mint-img.png" alt="img" />
-                            </div>
-                            <div class="mint_count_list">
-                                <ul>
-                                    <li>
-                                        <h5>Remaining</h5>
-                                        <h5>4583/<span>9999</span></h5>
-                                    </li>
-                                    <li>
-                                        <h5>Price</h5>
-                                        <h5>0.15 ETH</h5>
-                                    </li>
-                                    <li>
-                                        <h5>Quantity</h5>
-                                        <div class="mint_quantity_sect">
-                                            <button onclick="buttonClick_Dec();">-</button>
-                                            <input type="text" id="quantity" value="2">
-                                            <button onclick="buttonClick_Inc();">+</button>
-                                        </div>
-                                        <h5><span>0.30</span> ETH</h5>
-                                    </li>
-
-                                </ul>
-                            </div>
-                            <button class="modal_mint_btn hov_shape_show">
-                                MINT NOW
-                                <span class="hov_shape1"><img src="assets/images/icon/hov_shape_L_dark.svg"
-                                        alt="" /></span>
-                                <span class="hov_shape2"><img src="assets/images/icon/hov_shape_L_dark.svg"
-                                        alt="" /></span>
-                            </button>
-                            <h6>Presale & Whitelist : Soldout</h6>
-                        </div>
-                        <div class="modal_bottom_shape">
-                            <span class="modal_bottom_shape_left"><img src="assets/images/icon/hov_shape_L.svg"
-                                    alt="" /></span>
-                            <span class="modal_bottom_shape_right"><img src="assets/images/icon/hov_shape_L.svg"
-                                    alt="" /></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal Section End-->
 
     <!-- Bootstrap.min js -->
     <script src="assets/js/bootstrap.min.js"></script>
@@ -1623,6 +1532,8 @@
     <script src="assets/js/metamask.js"></script>
     <!-- main js -->
     <script src="assets/js/main.js"></script>
+    <!-- header js -->
+    <script src="assets/js/addHeaderFooter.js"></script>
     <script>
         var i = 0;
 
@@ -1671,7 +1582,7 @@
         var bannerLeft = $('#banner-box').offset().left
         var windowH = window.innerHeight;
         var idealTop = ((Math.floor(window.innerHeight)) - (Math.floor(bannerHeight))) / 4
-        if(windowH < 920){
+        if (windowH < 920) {
             idealTop = ((Math.floor(window.innerHeight)) - (Math.floor(bannerHeight))) / 2
         }
         $('#banner-box').css({ marginTop: idealTop });
