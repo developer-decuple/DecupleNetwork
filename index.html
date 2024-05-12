@@ -4,14 +4,21 @@
 <head>
     <!-- meta tag -->
     <meta charset="utf-8" />
-    <title> Decuple network - home</title>
-    <meta name="description" content="" />
+    <title> Decuple - home</title>
+    <meta name="title" content="Home | Decuple.io" />
+    <meta name="description"
+        content="Decuple is a comprehensive blockchain ecosystem designed to deliver lifelong wealth and empowerment to its users through 10 interconnected businesses." />
+    <meta property="og:url" content="http://www.decuple.io/">
+    <meta name="og:title" content="Home | Decuple.io" />
+    <meta name="og:description"
+        content="Decuple is a comprehensive blockchain ecosystem designed to deliver lifelong wealth and empowerment to its users through 10 interconnected businesses." />
     <!-- responsive tag -->
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- favicon -->
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png" />
+    <link rel="apple-touch-icon" href="assets/images/icon/apple-touch-icon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/icon/favicon.ico" />
     <!-- Bootstrap v4.4.1 css -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
     <!-- animate css -->
@@ -400,7 +407,7 @@
                                 <!-- <div class="roadmap_parcentage"><span>10</span>%</div> -->
                                 <!-- <div class="roadmap_parcentage"><span>10</span>%</div> -->
                                 <div class="roadmap_parcentage new-project-image">
-                                    <img src="./assets/images/projects/faxen-thumbnail-2.png" alt="">
+                                    <img src="./assets/images/projects/faxen-thumbnail.png" alt="">
                                 </div>
                             </div>
                             <div class="bithu_roadmap_text">
@@ -437,7 +444,7 @@
                         <div class="bithu_roadmap_content">
                             <div class="bithu_roadmap_counter">
                                 <div class="roadmap_parcentage new-project-image">
-                                    <img src="./assets/images/projects/medurism-object-2.png" class="" alt="Campifo">
+                                    <img src="./assets/images/projects/campifo-thumbnail.png" class="" alt="Campifo">
                                 </div>
                             </div>
                             <div class="bithu_roadmap_text">
@@ -458,11 +465,14 @@
                             <style>
                                 .new-project-image {
                                     background: none !important;
+                                    overflow: hidden !important;
+
                                 }
 
                                 .new-project-image img {
                                     max-height: 100% !important;
                                     aspect-ratio: 1;
+
                                 }
 
                                 .display-block {
@@ -523,7 +533,7 @@
                     <div class="bithu_roadmap_item">
                         <div class="bithu_roadmap_content">
                             <div class="bithu_roadmap_counter">
-                                <div class="roadmap_parcentage">
+                                <div class="roadmap_parcentage new-project-image">
                                     <img src="./assets/images/projects/brandstaking-thumbnail.png" alt="Brandstaking">
                                 </div>
                             </div>
@@ -555,12 +565,12 @@
                     <div class="bithu_roadmap_item">
                         <div class="bithu_roadmap_content">
                             <div class="bithu_roadmap_counter">
-                                <div class="roadmap_parcentage">
+                                <div class="roadmap_parcentage new-project-image">
                                     <img src="./assets/images/projects/opous-thumbnail.png" alt="">
                                 </div>
                             </div>
                             <div class="bithu_roadmap_text">
-                                <div class="roadmap_heading">
+                                <div class="roadmap_heading ">
                                     <h5 class="mb-15"><a href="#">Opous</a></h5>
                                 </div>
                                 <p>The crypto project launcher linking investors with crypto ventures, facilitating
@@ -572,7 +582,7 @@
                             </div>
                         </div>
                         <div class="roadmap_img  display-block">
-                            <img src="assets/images/projects/opous-logo.png" alt="">
+                            <img src="assets/images/projects/opous-logo-2.png" alt="">
                             <br><br>
                             <a href="https://opous.io" target="_blank" class="project-link"
                                 style="justify-content: center;"> Opous.io &nbsp;
@@ -581,40 +591,61 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-12">
-                    <div class="bithu_roadmap_item">
-                        <div class="bithu_roadmap_content">
-                            <div class="bithu_roadmap_counter">
-                                <div class="roadmap_parcentage new-project-image">
-                                    <img src="./assets/images/projects/opous-thumbnail-2.png" alt="">
-                                </div>
-                            </div>
-                            <div class="bithu_roadmap_text">
-                                <div class="roadmap_heading">
-                                    <h5 class="mb-15"><a href="#">Opous 2</a></h5>
-                                </div>
-                                <p>The crypto project launcher linking investors with crypto ventures, facilitating
-                                    profit generation and capital
-                                    raising for blockchain businesses through IDOs and other fundraising methods.</p>
-                                <br>
-                                <a href="">Learn More</a>
 
-                            </div>
-                        </div>
-                        <div class="roadmap_img  display-block">
-                            <img src="assets/images/projects/opous-logo.png" alt="">
-                            <br><br>
-                            <a href="https://opous.io" target="_blank" class="project-link"
-                                style="justify-content: center;"> Opous.io &nbsp;
-                                <i class="fa-solid fa-up-right-from-square"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
     <!-- Bithu roadmap End-->
+
+    <!-- temporary settings -->
+    <style>
+        .setting-frame {
+            position: fixed;
+            left: 800px;
+            top: 400px;
+            border: white 2px solid;
+            padding: 20px;
+            z-index: 99999;
+        }
+
+        .setting-box {
+            display: flex;
+        }
+
+        .setting-box span {
+            margin: 10px
+        }
+
+        .setting-box button {
+            padding: 10px
+        }
+    </style>
+    <script>
+        var current = 0;
+        function increase() {
+            console.log('increase - current-radius: ' + current)
+            current += 3;
+            $('.new-project-image').css("border-radius", current);
+            $('#current-radius').text(current)
+        }
+        function decrease() {
+            if (current >= 3) {
+                current -= 3;
+                $('.new-project-image').css("border-radius", current);
+                $('#current-radius').text(current)
+            }
+        }
+    </script>
+    <div class="setting-frame">
+        <div class="setting-box">
+            <button onclick="decrease()">-</button>
+            <span id="current-radius">0</span>
+            <button onclick="increase()">+</button>
+        </div>
+    </div>
+
+    <!-- temporary settings end-->
+
 
     <!--Token Section Start-->
     <span id="explore-token"></span>
@@ -1428,9 +1459,10 @@
                             <h5 class="menu-title">Subscribe Newsletter</h5>
                             <br>
                             <div class="footer-button">
-                                <input class="sub-input" type="text" name="text" placeholder="Email address" 
-                                  id="emailSubInput"  required="">
-                                <a href="#"  onclick="emailSubscribe()" class="sub-btn"><img src="assets/images/blog/arrow-icon.png" alt=""></a>
+                                <input class="sub-input" type="text" name="text" placeholder="Email address"
+                                    id="emailSubInput" required="">
+                                <a href="#" onclick="emailSubscribe()" class="sub-btn"><img
+                                        src="assets/images/blog/arrow-icon.png" alt=""></a>
                             </div>
                         </div>
                         <style>
