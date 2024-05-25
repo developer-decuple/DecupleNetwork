@@ -177,6 +177,21 @@
         </div>
     </div>
 
+    <script>
+        var a = 0;
+        function changeTheBG() {
+            if (a == 0) {
+                $('#home').removeClass('bithu_v1_baner_sect')
+                $('#home').addClass('comp')
+                a = 1;
+            } else {
+                $('#home').addClass('bithu_v1_baner_sect')
+                $('#home').removeClass('comp')
+                a = 0;
+            }
+        }
+    </script>
+
     <!--Banner Section Start-->
     <div class="bithu_v1_baner_sect" id="home">
         <div class="container">
@@ -184,9 +199,20 @@
                 <div class="col-lg-12 row" id="banner-box">
                     <div class="add-banner-new wide">
                         <style>
+                            .comp {
+                                background: url(./assets/images/bg/h1_banner_bg2.png);
+                                min-height: 950px;
+                                width: 100%;
+                                background-size: cover;
+                                background-position: top center;
+                                background-repeat: no-repeat;
 
+                                padding-top: 80px !important;
+                                min-height: 200px;
+
+                            }
                         </style>
-                        <h1>Some Digital Assets
+                        <h1 onclick="changeTheBG()">Some Digital Assets
                             <br>
                             Add to Your Life
                         </h1>
@@ -629,7 +655,7 @@
                         </div>
                     </div>
                 </div>
-                 
+
                 <div class="col-lg-12 float-box">
                     <div class="bithu_roadmap_item">
                         <div class="bithu_roadmap_content">
