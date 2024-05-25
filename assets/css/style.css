@@ -933,7 +933,7 @@ body .modal-backdrop {
 04. Banner Section CSS
 -------------------------------------------*/
 .bithu_v1_baner_sect{
-    background: url(../images/bg/h1_banner_bg.png);
+    background: url(../images/bg/h1_banner_bg-min.png);
     min-height: 950px;
     width: 100%;
     background-size: cover;
