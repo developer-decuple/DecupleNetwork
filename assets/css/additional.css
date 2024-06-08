@@ -63,6 +63,13 @@
       width: 20%;
 }
 
+.v1_about_us_section {
+      background: url(../images/homepage/about-bg.png) !important;
+      min-height: 45rem !important;
+      background-size: cover !important;
+
+}
+
 @media (min-width: 992px) {
       .logo img {
             width: 50%;
@@ -81,6 +88,18 @@
       line-height: 48px;
 }
 
+
+.bithu_v1_baner_right_img_bg img {
+      max-width: 80%;
+}
+
+.bithu_v1_baner_right_img img {
+      max-width: 80%;
+}
+
+.bithu_v1_baner_right_img_sect {
+      height: 350px;
+}
 
 
 
@@ -112,7 +131,6 @@
       margin-bottom: 1.8rem;
       line-height: 3.5rem;
       letter-spacing: 1px;
-
 }
 
 .add-banner-new h2 {
@@ -205,7 +223,220 @@
 
 }
 
-.counter-sub-text{
+.counter-sub-text {
       font-size: 0.7rem;
 }
 
+.comp {
+      background: url(../images/bg/h1_banner_bg2-min.png);
+      min-height: 950px;
+      width: 100%;
+      background-size: cover;
+      background-position: top center;
+      background-repeat: no-repeat;
+      padding-top: 80px !important;
+      min-height: 200px !important;
+}
+
+.dcp-section {
+      background: url(../images/homepage/DCP-bg.png);
+      min-height: 950px;
+      width: 100%;
+      background-size: cover;
+      background-position: top center;
+      background-repeat: no-repeat;
+      padding-top: 80px !important;
+      min-height: 200px !important;
+}
+
+.nft-section {
+      background: url(../images/homepage/NFT-bg.png);
+      min-height: 950px;
+      width: 100%;
+      background-size: cover;
+      background-position: top center;
+      background-repeat: no-repeat;
+      padding-top: 80px !important;
+      min-height: 200px !important;
+}
+
+.space-vertical {
+      height: 8px;
+}
+
+.new-project-image {
+      background: none !important;
+      overflow: hidden !important;
+
+}
+
+.new-project-image img {
+      max-height: 100% !important;
+      aspect-ratio: 1;
+      border-radius: 15px;
+
+}
+
+.display-block {
+      display: block !important;
+}
+
+.project-link {
+      display: flex;
+      justify-content: space-between;
+      line-height: normal;
+
+}
+
+.project-link i {
+      font-size: smaller;
+      padding-top: 4px;
+}
+
+.float-box {
+      margin: 6px;
+      padding-top: 4px;
+      transition: 250ms;
+
+}
+
+.float-box:hover {
+      transform: scale(1.05);
+}
+
+.float-box-2 {
+      transition: 250ms;
+
+}
+
+.float-box-2:hover {
+      transform: scale(1.05);
+}
+
+
+
+.shadow-box-div {
+      padding-top: 16px;
+
+      background-color: #27282900;
+      border: 4px solid #27282900;
+}
+
+.shadow-box-div:hover {
+
+      background-color: #272829;
+      border: 4px solid #272829;
+      transition: 50ms;
+}
+
+
+.roadmap_img {
+      height: 250px !important;
+      padding: 16px !important;
+      text-align: center;
+}
+
+@media (max-width: 992px) {
+      .roadmap_img {
+            height: unset !important;
+            padding: 16px !important;
+            text-align: center;
+      }
+
+      .display-block {
+            display: flex !important;
+      }
+}
+
+.roadmap_img img {
+      max-width: 60%;
+      margin-top: 1rem
+}
+
+.roadmap_img a {
+      justify-content: center;
+}
+
+.fa-check {
+      color: rgb(0, 252, 161);
+}
+
+.swiper-slide ul li span {
+      margin-right: 10px;
+}
+
+.swiper-slide ul li {
+      display: flex;
+}
+
+.qa-title {
+      font-weight: 900;
+}
+
+.accordion-panel {
+      padding-bottom: 12px;
+}
+
+.bithu_v1_footer_sect {
+
+      padding-top: 200px;
+}
+
+.footer-button {
+      position: relative;
+      z-index: 2;
+}
+
+.sub-input {
+      width: 100%;
+      background: #343D4055;
+      /* background: transparent; */
+      border: 2px solid #343D40;
+      color: rgba(255, 255, 255, 0.7);
+      height: 60px;
+      line-height: 60px;
+      padding: 0 20px;
+}
+
+.sub-btn {
+      background: #00FFA3;
+      position: absolute;
+      display: inline-block;
+      height: 100%;
+      width: 70px;
+      right: 0;
+}
+
+.sub-btn img {
+      position: relative;
+      top: 15px;
+      /* left: 27px; */
+}
+
+.footer_social_links ul li {
+      margin: 20px !important;
+}
+
+.social-shape {
+      width: 50%;
+}
+
+.token-explain h2 {
+      font-size: 1.8rem;
+}
+
+.token-explain h4 {
+      font-size: 1.2rem;
+}
+
+  .p-sub-menu-frame {
+        position: absolute;
+        display: none;
+        background-color: #363636ad;
+        left: 70%;
+        top: 65%;
+  }
+
+  .bithu_roadmap_section .bithu_roadmap_content {
+        height: 250px !important;
+  }
