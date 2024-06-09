@@ -80,20 +80,41 @@
                                 }
 
                             </script>
+                            <style>
+
+                                .p-sub-menu-box ul li a {
+                                    font-weight: normal;
+                                    font-family: inherit;
+                                    font-size: 1rem !important
+                                }
+                            </style>
                             <span>
                                 <div class="p-sub-menu-frame" id="submenu">
                                     <div class="p-sub-menu-box">
                                         <ul>
-                                          
+
                                             <li>
-                                            <a href="./projects/faxen.html" target="_blank">Faxen Exchange</a>
+                                                <a href="./projects/faxen.html" target="_blank">Faxen Exchange</a>
                                             </li>
-                                            <li>Campifo</li>
-                                            <li>Medurism</li>
-                                            <li>Brandstaking</li>
-                                            <li>Opous</li>
-                                            <li>DCP Token</li>
-                                            <li>NFT Collection</li>
+                                            <li>
+                                                <a href="./projects/faxen.html" target="_blank">Campifo</a>
+                                            </li>
+                                            <li>
+                                                <a href="./projects/faxen.html" target="_blank">Medurism</a>
+                                            </li>
+                                            <li>
+                                                <a href="./projects/faxen.html" target="_blank">Brandstaking</a>
+                                            </li>
+                                            <li>
+                                                <a href="./projects/faxen.html" target="_blank">Opous</a>
+                                            </li>
+                                            <li>
+                                                <a href="./projects/faxen.html" target="_blank">DCP Token</a>
+                                            </li>
+                                            <li>
+                                                <a href="./projects/faxen.html" target="_blank">NFT Collection</a>
+                                            </li>
+                                             
 
                                         </ul>
                                     </div>
@@ -752,7 +773,7 @@
         </div>
     </div>
 
-    <div class="none-mobile nft-mobile-img">
+    <div class="NFT-mobile-img nft-mobile-img">
         <img src="./assets/images/homepage/NFT-bg.png" alt="">
     </div>
     <!-- NFT carousel Section end -->
@@ -1288,7 +1309,8 @@
 
                     </ul>
                 </div>
-                <div class=" text-center row ">
+                <br>
+                <!-- <div class=" text-center row ">
                     <div class="col-lg-4 ">
                     </div>
                     <div class="col-lg-4 ">
@@ -1304,7 +1326,7 @@
                         </div>
 
                     </div>
-                </div>
+                </div> -->
                 <div class="footer_stras_sect">
                     <div class="footer_stars">
                         <span class="star_1"><img src="assets/images/icon/star_6.svg" alt="" /></span>
@@ -1453,7 +1475,19 @@
             display: none;
         }
 
+        .nft-section {
+            background: url('./assets/images/homepage/NFT-bg.png');
+        }
+
+        .about-img-mobile {
+            display: none;
+        }
+
         .DCP-mobile-img {
+            display: none;
+        }
+
+        .NFT-mobile-img {
             display: none;
         }
 
@@ -1509,7 +1543,16 @@
             .about-img-mobile {
                 overflow: hidden;
                 display: block;
+            }
 
+            .NFT-mobile-img {
+                overflow: hidden;
+                display: block;
+            }
+
+            .nft-mobile-img {
+                overflow: hidden;
+                display: block;
             }
 
             .float-box {
@@ -1564,25 +1607,24 @@
                 display: block;
                 max-width: 200vw !important;
             }
+
+            .nft-mobile-img {
+                display: flex;
+                max-width: 200% !important;
+                justify-content: end;
+                overflow: hidden;
+            }
         }
 
 
 
         /* NFT Section */
-        .nft-section {
-            background: none;
-        }
 
         .bithu_owl_carousel_content ul li img {
             width: 100%;
         }
 
-        .nft-mobile-img {
-            display: flex;
-            max-width: 200% !important;
-            justify-content: end;
-            overflow: hidden;
-        }
+
 
         .nft-mobile-img img {
             display: block;
@@ -1596,7 +1638,7 @@
             padding-left: 0px !important;
         }
 
-        .mobile-hidden{
+        .mobile-hidden {
             display: none;
         }
 
