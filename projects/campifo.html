@@ -5,7 +5,7 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title> Projects / Campifo - Decuple</title>
- </head>
+</head>
 
 <body>
       <header class="hero-section">
@@ -49,12 +49,16 @@
             <div class="content-container">
                   <style>
                         .content-container {
-                              padding-top: 4rem;
+                              padding-top: 8rem;
                               text-align: justify;
+                              border: black 12px solid;
+                              padding: 4rem
                         }
+
                         .content-container p {
-                              font-size: 2rem;
+                              font-size: 1.8rem;
                               font-family: "rob";
+                              margin: 0px
                         }
                   </style>
                   <p>Embark on a unique journey with Campifo, where the future of travel intersects with blockchain
@@ -69,20 +73,137 @@
                         dream hotel, or
                         planning an international event.</p>
             </div>
-      </section>
 
-      <section class="quote-section">
-            <div class="quote-container">
-                  <p>"With Campifo, your travel aspirations are not just met, they're exceeded..."</p>
-            </div>
-      </section>
+            <section class="quote-section">
+                  <style>
+                        .quote-section {
+                              width: 100%;
+                              padding: 8rem 0rem;
+                              display: flex;
+                        }
 
-      <section class="benefits-section">
-            <div class="benefits-container">
-                  <p>The association with Campifo continues beyond initial interactions...</p>
-            </div>
-      </section>
+                        .quote-left {
+                              width: 29%;
+                        }
 
+                        .quote-left img {
+                              width: 100%;
+                        }
+
+                        .quote-right {
+                              width: 29%;
+                        }
+
+                        .quote-right img {
+                              width: 100%;
+                        }
+
+                        .quote-container {
+                              width: 42%;
+                              padding: 3rem;
+                              padding-top: 5rem;
+                        }
+
+                        .quote-container p {
+                              padding: 4rem;
+                              border: 12px black solid;
+                              font-size: 1.8rem;
+                              font-family: "rob";
+                              margin: 0px;
+                              text-align: justify;
+                        }
+                  </style>
+                  <div class="quote-left">
+                        <img src="./campifo-items/beach.png" alt="">
+                        <img src="./campifo-items/coast.png" alt="">
+                  </div>
+                  <div class="quote-container">
+                        <p>"With Campifo, your travel aspirations are not just met, they're exceeded. The platform's
+                              dedication to fair pricing and
+                              reliable services means you can indulge in customized tour experiences without worry. The
+                              security and privacy afforded
+                              by blockchain technology puts your mind at ease, allowing you to focus on the joys of
+                              travel.
+                              And with cryptocurrency
+                              transactions, the efficiency and flexibility you experience are unparalleled."</p>
+                  </div>
+                  <div class="quote-right">
+                        <img src="./campifo-items/sea.png" alt="">
+                        <img src="./campifo-items/love look.png" alt="">
+                  </div>
+            </section>
+
+
+            <section class="benefits-section">
+                  <div class="benefits-container">
+                        <style>
+                              .benefits-section {
+                                    width: 100%;
+                                    padding: 8rem 0rem;
+                                    display: flex;
+                              }
+
+                              .benefits-container {
+                                    width: 100%;
+                                    display: flex;
+                                    overflow: hidden;
+                              }
+
+                              .ben-left {
+                                    width: 50%;
+                                    display: flex;
+                                    justify-content: end;
+                                    padding-left: 4rem;
+                              }
+
+                              .ben-right img {
+                                    max-width: 160%;
+
+                                    position: relative;
+                                    left: -80px;
+                                    width: 140%;
+                              }
+
+                              .ben-right {
+                                    width: 50%;
+                                    padding-top: 7%;
+                                    justify-content: end;
+                                    height: 100%;
+                                    vertical-align: middle;
+                              }
+
+                              .ben-left p {
+                                    padding: 4rem;
+                                    border: 12px black solid;
+                                    font-size: 1.4rem;
+                                    font-family: "rob";
+                                    margin: 0px;
+                                    text-align: justify;
+                              }
+                        </style>
+                        <div class="ben-left">
+
+                              <p>The association with Campifo continues beyond initial interactions. Through the staking
+                                    of
+                                    Decuple NFTs, an array of
+                                    exclusive travel benefits becomes accessible. This encompasses rewards for air
+                                    travel,
+                                    discounted rates for various
+                                    accommodations and dining experiences, as well as complimentary local transportation
+                                    and
+                                    culinary services. Furthermore,
+                                    the provision of a personal tour concierge and guidance is a practical actualization
+                                    for
+                                    those integrated within the
+                                    Campifo ecosystem.</p>
+                        </div>
+
+                        <div class="ben-right">
+                              <img src="./campifo-items/boat.png" alt="">
+                        </div>
+                  </div>
+            </section>
+      </section>
       <footer class="join-section">
             <div class="join-container">
                   <h2>Join Us Now</h2>
@@ -125,37 +246,38 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            background-image: url('./campifo-items/fg.png');
+            /* background-image: url('./campifo-items/fg.png'); */
             background-size: 100%;
+            overflow-x: hidden;
 
             color: black;
-            padding: 10px 20px;
+            /* padding: 10px 20px; */
       }
 
-      .hero-section-0 {
-            background-image: url('./campifo-items/fg.png');
+      .hero-section {
+            background-image: url('./campifo-items/header.png');
             background-size: cover;
-            background-position: center;
+            background-position: top;
             color: black;
-            text-align: center;
-            padding: 10px 20px;
+            /* width: 100vw; */
+            /* padding: 10px 20px; */
       }
 
       .hero-content {
-            width: 100%;
+            width: 100vw;
       }
 
       .hero-content-box {
             display: flex;
-            padding: 0% 12%
+            padding: 0% 12vw
       }
 
       .left-part {
-            width: 60%;
+            width: 60vw;
       }
 
       .left-part img {
-            max-width: 15%;
+            max-width: 15vw;
       }
 
       .left-part h1 {
@@ -173,7 +295,7 @@
       }
 
       .right-part {
-            width: 40%;
+            width: 40vw;
             padding: 8rem 0rem;
       }
 
@@ -240,8 +362,13 @@
             font-weight: 600;
       }
 
-      .content-section,
-      .quote-section,
+      .content-section {
+            background: url("./campifo-items/fg2.png");
+            padding-top: 8rem;
+            background-size: cover
+      }
+
+
       .benefits-section,
       .join-section {
             padding: 50px 20px;
@@ -249,8 +376,8 @@
       }
 
       .content-container,
-      .quote-container,
-      .benefits-container,
+
+
       .join-container {
             max-width: 800px;
             margin: 0 auto;
