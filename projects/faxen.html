@@ -66,13 +66,16 @@
       .proj-navbar {
             width: 100%;
             position: fixed;
-            background-color: #1e992e11;
+            background-color: #1e209911;
             backdrop-filter: blur(2px);
             display: flex;
+            justify-content: space-between;
+
       }
 
       .navbar-right {
             margin: auto 30px;
+            padding-right: 8rem;
       }
 
       .navbar-left {
@@ -159,6 +162,17 @@
                         text-decoration: none;
                         color: aliceblue;
                         margin-right: 2rem;
+                        font-weight: 700;
+
+                  }
+                  #product-btn span {
+                        font-weight: normal;
+                        /* font-family: 'Bakbak One' ; */
+                        font-size: 1rem !important;
+                        text-decoration: none;
+                        color: aliceblue;
+                        margin-right: 2rem;
+                        font-weight: 700;
                   }
 
                   .p-sub-menu-box ul li a {
@@ -733,7 +747,7 @@
       }
       console.log('bannerHeight: ' + bannerHeight)
       $('#banner-box').css({ marginTop: bannerHeight });
-      $('#submenu').css({ top: bannerHeight / 1.6 });
+      $('#submenu').css({ top: bannerHeight / 1.7 });
       // $('#banner-box').css({ marginTop: idealTop });
 </script>
 
