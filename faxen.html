@@ -131,7 +131,7 @@
                                 empowerment for all participants.
                             </p>
 
-                            <div class="details-image" >
+                            <div class="details-image">
                                 <img src="projects/faxen-Items/faxen-logo.png" alt="Details" width="270">
                             </div>
 
@@ -183,8 +183,10 @@
                             </div>
 
                             <p class="mb-45">
-                                With a steadfast commitment to trust, transparency, and inclusivity, Faxen is well-positioned to establish itself as the
-                                preferred destination for knowledgeable traders and investors seeking a more interconnected and dynamic trading
+                                With a steadfast commitment to trust, transparency, and inclusivity, Faxen is
+                                well-positioned to establish itself as the
+                                preferred destination for knowledgeable traders and investors seeking a more
+                                interconnected and dynamic trading
                                 experience.
                             </p>
                         </div>
@@ -203,14 +205,19 @@
                         <div class="igo-blog pt-55">
                             <h4 class="mb-30">Exchange Facts</h4>
                             <p class="mb-15" style="text-align: justify;">
-                                In the realm of cryptocurrency trading, Faxen is a pioneering platform that not only enables participation but also
-                                actively shapes the future. It fosters an environment where engagement is not just embraced but intricately woven into
-                                the fabric of the community. Whether navigating these waters for the first time or as a seasoned explorer of the
-                                cryptocurrency ocean, Faxen confidently serves as a compass—offering a comprehensive array of resources and
-                                opportunities tailored to enrich the journey. Consider Faxen as the vantage point from which your investments have the
+                                In the realm of cryptocurrency trading, Faxen is a pioneering platform that not only
+                                enables participation but also
+                                actively shapes the future. It fosters an environment where engagement is not just
+                                embraced but intricately woven into
+                                the fabric of the community. Whether navigating these waters for the first time or as a
+                                seasoned explorer of the
+                                cryptocurrency ocean, Faxen confidently serves as a compass—offering a comprehensive
+                                array of resources and
+                                opportunities tailored to enrich the journey. Consider Faxen as the vantage point from
+                                which your investments have the
                                 potential not only to grow, but to truly flourish.
                             </p>
-                             
+
                         </div>
                         <div class="about-blog">
                             <!-- <h4 class="mb-15">About MintO</h4>
@@ -294,6 +301,49 @@
     <!-- main js -->
     <script src="assets/js/main.js"></script>
 
+
+    <!-- <script>
+        $(document).ready(() => {
+            console.log('ready in faxen')
+
+            $('#product-btn').mouseenter(() => {
+                $('#submenu').show()
+            })
+            $('#submenu').mouseenter(() => {
+                $('#submenu').show()
+            })
+            $('#product-btn').mouseleave(() => {
+                $('#submenu').hide()
+            })
+            $('#submenu').mouseleave(() => {
+                $('#submenu').hide()
+            })
+
+            setSubMenuLeft()
+
+            window.addEventListener('resize', function (event) {
+                setSubMenuLeft()
+            }, true);
+
+            function setSubMenuLeft() {
+                var leftO = $('#product-btn').offset().left
+                var topO = $('#submenu').offset().top
+
+                console.log('left: ' + leftO + '   top: ' + topO)
+                $('#submenu').css({ left: leftO });
+            }
+
+            var topBanner = $('#banner-box').offset().top
+            var bannerHeight = $('#banner-box').height()
+            var bannerLeft = $('#banner-box').offset().left
+            var windowH = window.innerHeight;
+            var idealTop = ((Math.floor(window.innerHeight)) - (Math.floor(bannerHeight))) / 4
+            if (windowH < 920) {
+                idealTop = ((Math.floor(window.innerHeight)) - (Math.floor(bannerHeight))) / 2
+            }
+            $('#banner-box').css({ marginTop: idealTop });
+        })
+    </script> -->
 </body>
 
 </html>

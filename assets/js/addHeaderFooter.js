@@ -5,7 +5,7 @@ if (window.location.pathname != '/') {
       addHeaderFooter()
       console.log('not on home --')
 
-}else{
+} else {
       console.log('on home')
 }
 async function addHeaderFooter() {
@@ -14,6 +14,44 @@ async function addHeaderFooter() {
             .then((html) => {
                   $('header')[0].innerHTML = html;
                   console.log('Header has been set')
+                  console.log('ready from add header')
+                  $('#product-btn').mouseenter(() => {
+                        console.log('product-btn => mouseenter')
+                        $('#submenu').show()
+                  })
+                  $('#submenu').mouseenter(() => {
+                        $('#submenu').show()
+                  })
+                  $('#product-btn').mouseleave(() => {
+                        $('#submenu').hide()
+                  })
+                  $('#submenu').mouseleave(() => {
+                        $('#submenu').hide()
+                  })
+
+                  setSubMenuLeft()
+
+                  window.addEventListener('resize', function (event) {
+                        setSubMenuLeft()
+                  }, true);
+
+                  function setSubMenuLeft() {
+                        var leftO = $('#product-btn').offset().left
+                        var topO = $('#submenu').offset().top
+
+                        console.log('left: ' + leftO + '   top: ' + topO)
+                        $('#submenu').css({ left: leftO });
+                  }
+
+                  var topBanner = $('#banner-box').offset().top
+                  var bannerHeight = $('#banner-box').height()
+                  var bannerLeft = $('#banner-box').offset().left
+                  var windowH = window.innerHeight;
+                  var idealTop = ((Math.floor(window.innerHeight)) - (Math.floor(bannerHeight))) / 4
+                  if (windowH < 920) {
+                        idealTop = ((Math.floor(window.innerHeight)) - (Math.floor(bannerHeight))) / 2
+                  }
+                  $('#banner-box').css({ marginTop: idealTop });
 
                   // $('header')[0].classList.add('sticky-top')
                   // document.getElementById('network-name').innerHTML = 'BSC';
