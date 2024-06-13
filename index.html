@@ -547,7 +547,7 @@
 
             </div>
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-8 mid-max">
                     <div class="add-banner-new wide">
 
                         <div class="token-explain">
@@ -776,6 +776,9 @@
 
     <div class="NFT-mobile-img nft-mobile-img">
         <img src="./assets/images/homepage/NFT-bg.png" alt="">
+    </div>
+    <div class=" nft-mid-img">
+        <img src="./assets/images/homepage/NFT-bg-mid.png" alt="">
     </div>
     <!-- NFT carousel Section end -->
 
@@ -1497,6 +1500,10 @@
         }
 
         @media (min-width:575px) and (max-width: 1081px) {
+            .bithu_v1_baner_sect {
+                height: unset !important;
+            }
+
             .roadmap_img {
                 display: block !important;
                 height: 250px !important;
@@ -1508,10 +1515,43 @@
                 font-size: 1rem !important;
                 margin-left: 0px !important;
             }
+
             .roadmap_img img {
                 max-width: 60% !important;
             }
 
+            .mid-max {
+                width: 100% !important;
+            }
+
+            .nft-section {
+                background: none !important;
+
+            }
+
+            .nft-mobile-img {
+                display: none;
+            }
+
+            .nft-mid-img {
+                display: block;
+            }
+
+            .nft-mid-img img {
+                width: 100%
+            }
+
+            .NFT-mobile-img {
+                display: none !important;
+            }
+
+            .bithu_menu_sect,
+            .bithu_header {
+                height: 90px;
+            }
+            .connect_btn{
+                display: none;
+            }
         }
 
 
@@ -1618,7 +1658,7 @@
             /* .bithu_roadmap_section .bithu_roadmap_content {
                 height: unset !important;
             } */
-            .bithu_roadmap_section  {
+            .bithu_roadmap_section {
                 height: unset !important;
             }
 
