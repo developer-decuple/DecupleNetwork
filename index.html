@@ -259,7 +259,9 @@
     <!--Banner Section End-->
 
 
-
+    <div class="NFT-mobile-img nft-mobile-img ">
+        <img src="./assets/images/bg/h1_banner_bg-min.png" alt="">
+    </div>
 
     <!-- About Us section Start -->
     <div class="v1_about_us_section" id="about">
@@ -1360,7 +1362,7 @@
                                 <div class="copiright_text pl-40">
                                     Copyright © 2022-2024 Decuple
                                     <br>
-                                    <a href="mailto:info@decuple.io"  style="padding-left:0px">info@decuple.io</a>
+                                    <a href="mailto:info@decuple.io" style="padding-left:0px">info@decuple.io</a>
 
                                 </div>
                             </div>
@@ -1467,7 +1469,7 @@
         if (windowH < 920) {
             idealTop = ((Math.floor(window.innerHeight)) - (Math.floor(bannerHeight))) / 2
         }
-        $('#banner-box').css({ marginTop: idealTop });
+        //$('#banner-box').css({ marginTop: idealTop });
     </script>
     <style>
         .v1_about_us_img_card2 {
@@ -1490,16 +1492,36 @@
             display: none;
         }
 
-        @media only screen and (max-width: 575px) {
+        .banner-mobile-img {
+            display: none;
+        }
+
+        @media only screen and (max-width: 1081px) {
+
+            /* #bithu_mobile_menu {
+                display: block;
+            } */
+            .bithu_menu_right_sect {
+                display: block;
+            }
+
+
+
+
+            .logo img {
+                width: 60%;
+            }
+
             .v1_about_us_right_text {
                 margin-top: 10px;
             }
 
             .bithu_v1_baner_sect {
-                /* background: none; */
+                background: none;
                 padding-top: 180px !important;
                 min-height: 200px !important;
-                height: 100vh;
+                padding-top: 120px;
+                /* height: 100vh; */
             }
 
             .wide {
@@ -1550,6 +1572,11 @@
             }
 
             .nft-mobile-img {
+                overflow: hidden;
+                display: block;
+            }
+
+            .banner-mobile-img {
                 overflow: hidden;
                 display: block;
             }
@@ -1795,7 +1822,6 @@
             max-width: 270px;
             margin: auto;
         }
-        
     </style>
 </body>
 
