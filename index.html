@@ -267,7 +267,7 @@
     <div class="v1_about_us_section" id="about">
         <div class="container">
             <div class="row flex-row-reverse">
-                <div class="col-md-6">
+                <div class="col-md-6 about-mid">
                     <div class="v1_about_us_right_sect">
                         <div class="bithu_title_section">
                             <h2>About Us<img src="assets/images/icon/title_shapes.svg" alt="" /></h2>
@@ -1412,8 +1412,8 @@
     <script src="assets/js/swiper-min.js"></script>
 
     <!-- metamask-handeler -->
-    <script src="assets/js/metamaskhandler.js"></script>
-    <script src="assets/js/metamask.js"></script>
+    <!-- <script src="assets/js/metamaskhandler.js"></script>
+    <script src="assets/js/metamask.js"></script> -->
     <!-- main js -->
     <script src="assets/js/main.js"></script>
     <!-- header js -->
@@ -1496,6 +1496,23 @@
             display: none;
         }
 
+        @media (min-width:575px) and (max-width: 1081px) {
+            .roadmap_img {
+                display: block !important;
+                height: unset !important;
+                margin-bottom: unset !important;
+            }
+
+            .roadmap_img a {
+                font-size: 1rem !important;
+            }
+            .roadmap_img img {
+                max-width: 60% !important;
+            }
+
+        }
+
+
         @media only screen and (max-width: 1081px) {
 
             /* #bithu_mobile_menu {
@@ -1505,11 +1522,17 @@
                 display: block;
             }
 
+            .flex-row-reverse {
+                flex-direction: row !important;
+            }
 
-
+            .about-mid {
+                width: 80% !important;
+            }
 
             .logo img {
                 width: 60%;
+                max-width: 160px;
             }
 
             .v1_about_us_right_text {
