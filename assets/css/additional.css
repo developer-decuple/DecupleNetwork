@@ -82,6 +82,43 @@
 }
 
 
+
+
+/* Project Detail Page */
+.wide-sides {
+      padding: 1rem 6rem;
+}
+
+.proj-images-frame {
+      width: 100%;
+      margin-top: 90px;
+}
+
+.proj-image-box {
+      width: 100%;
+}
+
+.proj-image-box img {
+      width: 100%;
+}
+
+
+.QST {
+      font-size: 1.8rem !important;
+      font-weight: 700;
+      margin-top: 8rem;
+}
+
+.ANS {
+      font-size: 1.5rem;
+      font-weight: 500;
+}
+
+.about-blog {
+      margin-top: 8rem;
+
+}
+
 /* Override */
 
 .bithu_title_section h3 {
@@ -429,14 +466,14 @@
       font-size: 1.2rem;
 }
 
-  .p-sub-menu-frame {
-        position: absolute;
-        display: none;
-        background-color: #363636ad;
-        left: 70%;
-        top: 65%;
-  }
+.p-sub-menu-frame {
+      position: absolute;
+      display: none;
+      background-color: #363636ad;
+      left: 70%;
+      top: 65%;
+}
 
-  .bithu_roadmap_section .bithu_roadmap_content {
-        height: 250px !important;
-  }
+.bithu_roadmap_section .bithu_roadmap_content {
+      height: 250px !important;
+}

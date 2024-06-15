@@ -9,7 +9,7 @@ if (window.location.pathname != '/') {
       console.log('on home')
 }
 async function addHeaderFooter() {
-      await fetch("./header.html" /*, options */)
+      await fetch("/header.html" /*, options */)
             .then((response) => response.text())
             .then((html) => {
                   $('header')[0].innerHTML = html;
@@ -62,7 +62,7 @@ async function addHeaderFooter() {
                   console.log('Warning for the header')
                   console.warn(error);
             });
-      fetch("./footer.html" /*, options */)
+      fetch("/footer.html" /*, options */)
             .then((response) => response.text())
             .then((html) => {
                   $('footer')[0].innerHTML = html;
