@@ -102,6 +102,12 @@
       width: 100%;
 }
 
+.details-image {
+      width: 100%;
+      padding: 5%;
+      display: inline-flex;
+      justify-content: center;
+}
 
 .QST {
       font-size: 1.8rem !important;
@@ -374,6 +380,15 @@
 }
 
 @media (max-width: 992px) {
+
+      .bithu_menu_right_sect {
+            width: unset !important;
+      }
+
+      .wide-sides {
+            padding: 1rem 2rem;
+      }
+
       .roadmap_img {
             height: unset !important;
             padding: 16px !important;
