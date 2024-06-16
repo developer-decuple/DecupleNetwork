@@ -110,7 +110,12 @@
       list-style: disc;
       margin-bottom: 1rem;
 }
-
+.previous-item img {
+      width: 100px;
+}
+.next-item img {
+      width: 100px;
+}
 
 .details-image {
       width: 100%;
