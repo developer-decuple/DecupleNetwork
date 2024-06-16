@@ -102,6 +102,16 @@
       width: 100%;
 }
 
+.blog-description ul {
+      max-width: 70%;
+}
+
+.blog-description ul li {
+      list-style: disc;
+      margin-bottom: 1rem;
+}
+
+
 .details-image {
       width: 100%;
       padding: 5%;
