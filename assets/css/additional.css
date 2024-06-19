@@ -111,9 +111,11 @@
       margin-bottom: 1rem;
       font-size: 1.2rem;
 }
+
 .previous-item img {
       width: 100px;
 }
+
 .next-item img {
       width: 100px;
 }
@@ -395,6 +397,10 @@
       text-align: center;
 }
 
+.join_discord_btn_x {
+      background: #222f33 !important;
+}
+
 @media (max-width: 992px) {
 
       .bithu_menu_right_sect {
@@ -410,6 +416,8 @@
             padding: 16px !important;
             text-align: center;
       }
+
+
 
       .display-block {
             display: flex !important;
